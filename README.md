@@ -1,7 +1,34 @@
-# NeRF Variations and Applications
+# Spring 2023 - Deep Learning
+# NeRF: Neural Radiance Fields - A deep dive into the variations and applications
+
+## Authors
+- Jash Rathod (Net ID: jsr10000, NYU ID: N13876910)
+- Aneek Roy (Net ID: ar8002, NYU ID: N18324528)
+
+**Affiliations:**
+New York University (NYU)
+
 
 ## Project Abstract
 In this project, we explore different variations of the Neural Radiance Fields (NeRF) technique for generating new views of intricate scenes using sparse inputs. We compare the performance of various NeRF implementations and investigate their strengths and weaknesses. Our focus is on understanding NeRF variations such as PixelNeRF, RegNeRF, and SNeRG, and their applications in constrained resource environments, sparse coding, real-time performance, and representation from one or few images. We visually compare these variations with prior works in neural rendering and view synthesis.
+
+## Architectures
+
+In this section, we provide an overview of the architectures used in our experiments. The following images depict the architectures of each variation:
+
+### NeRF Architecture
+![NeRF Architecture](NeRF_arch.png)
+
+### PixelNeRF Architecture
+![PixelNeRF Architecture](pixelNeRF.png)
+
+### RegNeRF Architecture
+![RegNeRF Architecture](RegNeRF_arch.png)
+
+### SNeRG Architecture
+![SNeRG Architecture](SNeRF.png)
+
+These images provide a visual representation of the network structures for each architecture. They help in understanding the design and components of the NeRF variations we explored in our experiments.
 
 ## Experiments and Results
 
@@ -47,18 +74,11 @@ We summarize our best results in terms of PSNR in the following table:
 
 Through this project, we have gained a comprehensive understanding of NeRF variations and their applications. We have compared the performance of different NeRF implementations and identified their strengths and weaknesses. Our work provides insights into addressing challenges such as sparse inputs, real-time performance, and representation from limited images. Further experiments and research will contribute to overcoming these challenges and improving the capabilities of NeRF.
 
-Please refer to the full report for a detailed analysis and discussion of the results.
+Please refer to the full report ([report.pdf](report.pdf)) for a detailed analysis and discussion of the results.
 
+## References
 
-
-
-<!-- # nerf-deep-dive-testbench
-Code repository for nerf testbench
-
-The code contains four different implementations of nerf tested for our database:
-
-1. NeRF - (https://www.matthewtancik.com/nerf)
-2. Pixel-NeRF - (https://alexyu.net/pixelnerf/)
-3. regNeRF - (https://m-niemeyer.github.io/regnerf/)
-4. sNeRG - (https://phog.github.io/snerg/)
- -->
+- NeRF - (https://www.matthewtancik.com/nerf)
+- Pixel-NeRF - (https://alexyu.net/pixelnerf/)
+- regNeRF - (https://m-niemeyer.github.io/regnerf/)
+- sNeRG - (https://phog.github.io/snerg/)
