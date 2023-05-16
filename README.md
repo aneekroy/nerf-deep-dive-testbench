@@ -1,13 +1,10 @@
-# Spring 2023 - Deep Learning
+# Spring 2023 - Deep Learning - New York University (NYU)
 # NeRF: Neural Radiance Fields - A deep dive into the variations and applications
 
 ## Authors
-- Jash Rathod (Net ID: jsr10000, NYU ID: N13876910)
+
 - Aneek Roy (Net ID: ar8002, NYU ID: N18324528)
-
-**Affiliations:**
-New York University (NYU)
-
+- Jash Rathod (Net ID: jsr10000, NYU ID: N13876910)
 
 ## Project Abstract
 In this project, we explore different variations of the Neural Radiance Fields (NeRF) technique for generating new views of intricate scenes using sparse inputs. We compare the performance of various NeRF implementations and investigate their strengths and weaknesses. Our focus is on understanding NeRF variations such as PixelNeRF, RegNeRF, and SNeRG, and their applications in constrained resource environments, sparse coding, real-time performance, and representation from one or few images. We visually compare these variations with prior works in neural rendering and view synthesis.
@@ -55,7 +52,7 @@ Entire View:
 ![SNeRG Entire View](SneRG_imp.png)
 
 Focus on the Center:
-![SNeRG Center](SneRG_foc.png)
+![SNeRG Center](SNeRG_foc.png)
 
 We also plotted the Peak Signal to Noise Ratio (PSNR) against the number of input views for each architecture. Higher PSNR values indicate better performance.
 
